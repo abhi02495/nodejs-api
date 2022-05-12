@@ -1,4 +1,4 @@
-Below Heroku links to access the app - (Use Postman for better experience)
+Below Heroku links to access the app - (Use Postman for better experience - https://github.com/abhi02495/nodejs-api/blob/main/NodeJs%20APIs.postman_collection.json)
 
 -> POST (Add an item in the cart)
 https://floating-brushlands-12135.herokuapp.com/cart/item 
