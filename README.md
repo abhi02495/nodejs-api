@@ -1,4 +1,4 @@
-Below Heroku links to access the app -
+Below Heroku links to access the app - (Use Postman for better experience)
 
 -> POST (Add an item in the cart)
 https://floating-brushlands-12135.herokuapp.com/cart/item 
