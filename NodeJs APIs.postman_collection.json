@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "a7e10c20-5f98-430a-9028-f8c99083b973",
+		"name": "NodeJs APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST - add item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": 103,\r\n  \"quantity\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://floating-brushlands-12135.herokuapp.com/cart/item",
+					"protocol": "https",
+					"host": [
+						"floating-brushlands-12135",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						"item"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET- all cart items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://floating-brushlands-12135.herokuapp.com/cart/items",
+					"protocol": "https",
+					"host": [
+						"floating-brushlands-12135",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Delete all items from cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"action\": \"empty_cart\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://floating-brushlands-12135.herokuapp.com/cart/items",
+					"protocol": "https",
+					"host": [
+						"floating-brushlands-12135",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Cart Calculation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://floating-brushlands-12135.herokuapp.com/cart/checkout-value?shipping_postal_code=465535",
+					"protocol": "https",
+					"host": [
+						"floating-brushlands-12135",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						"checkout-value"
+					],
+					"query": [
+						{
+							"key": "shipping_postal_code",
+							"value": "465535"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
