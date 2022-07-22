@@ -1,3 +1,5 @@
+**Was for the interview purpose. No changes. Just for practice purpose this repo will be used now.
+
 Below Heroku links to access the app - (Use Postman for better experience - https://github.com/abhi02495/nodejs-api/blob/main/NodeJs%20APIs.postman_collection.json)
 
 -> POST (Add an item in the cart)
